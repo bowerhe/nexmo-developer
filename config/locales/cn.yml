@@ -65,6 +65,7 @@ cn:
         viber: "Viber 服务消息"
         subaccounts: "子帐户"
         use-cases: "用例"
+        neru: NeRu
     layouts:
         partials:
             header:

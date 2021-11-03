@@ -207,3 +207,9 @@ products:
     translate: false
     translation_frequency: 5
     dropdown: true
+  - 
+    name: 'NeRu'
+    path: neru
+    translate: false
+    translation_frequency: 5
+    dropdown: true

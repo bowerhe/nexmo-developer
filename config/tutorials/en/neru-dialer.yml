@@ -1,0 +1,39 @@
+title: Make Outbound Calls with NeRu
+description: Create and deploy a NeRu project that uses a webpage to make an outbound call.
+products:
+  - neru
+languages: 
+  - javascript
+
+introduction:
+  title: Introduction to this tutorial
+  description: This tutorial will take you through creating and deploying a NeRu project that uses a webpage to make an outbound call.
+  content: |
+    # Introduction
+    [NeRu](/neru/overview) allows you to create and deploy serverless backends for your Vonage Applications.
+
+    This tutorial is will be using the [Voice](/neru/providers/voice) provider from the NeRu SDK. 
+
+prerequisites:
+  - create-nexmo-account
+  - install-nodejs
+  - install-nexmo-cli
+  - install-neru-cli
+
+tasks:
+  - neru/create-vonage-application
+  - buy-nexmo-number
+  - link-nexmo-number
+  - neru/dialer/create-project
+  - neru/dialer/create-server
+  - neru/dialer/create-view
+  - neru/dialer/outbound-call-route
+  - neru/view-dashboard
+
+conclusion:
+  title: What's next?
+  description: What else can you do with NeRu?
+  content: |
+    # What's next?
+    
+    Try the other [NeRu tutorials](/neru/tutorials).

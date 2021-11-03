@@ -65,6 +65,7 @@ ja:
         viber: "Viber サービスメッセージ"
         subaccounts: "サブアカウント"
         use-cases: "ユースケース"
+        neru: NeRu
     layouts: 
         partials: 
             header: 

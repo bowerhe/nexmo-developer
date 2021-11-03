@@ -13,6 +13,7 @@ navigation_weight:
   redact: 100
   reports: 101
   vonage-business-cloud: 200
+  neru: 100
 
   smart-numbers: 1
   vbc-apis: 2
@@ -170,3 +171,42 @@ navigation_overrides:
   contribute:
     administration:
       navigation_weight: 9999
+  neru:
+    label: 'Dev Preview'
+    svg: 'cloud'
+    overview:
+      navigation_weight: 1
+    cli:
+      navigation_weight: 2
+    sessions:
+      navigation_weight: 3
+    debugging:
+      navigation_weight: 4
+    deploying:
+      navigation_weight: 5
+    secrets:
+      navigation_weight: 6
+    providers:
+      navigation_weight: 7
+      overview: 
+        navigation_weight: 1
+      voice: 
+        navigation_weight: 2
+      messages: 
+        navigation_weight: 3  
+      state: 
+        navigation_weight: 4  
+      scheduler: 
+        navigation_weight: 5
+    code-snippets:
+      navigation_weight: 8
+      neru-global: 
+        navigation_weight: 1
+      voice-provider: 
+        navigation_weight: 2
+      messages-provider: 
+        navigation_weight: 3  
+      state-provider: 
+        navigation_weight: 4  
+      scheduler-provider: 
+        navigation_weight: 5

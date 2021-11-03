@@ -30,6 +30,7 @@ mp3
 wav
 ogg
 khz
+IVRs
 E.164
 ngrok
 authorization_code
@@ -310,6 +311,7 @@ AP
 strikethrough
 monospace
 singleton
+Hashtable
 getters
 onboarding
 Vodafone
@@ -328,6 +330,7 @@ DocStrap
 whitelisting
 unmuting
 earmuffing
+unearmuffing
 Gradle
 Keypair
 programme
@@ -648,9 +651,14 @@ tokenize
 Gurmukhi
 Rican
 złoty
+NeRu
+neru.yml
+breakpoint
+VonageAI
 chatbot
 chatbots
 pre-configured
+VCard
 unclickable
 v0.1
 af-ZA
