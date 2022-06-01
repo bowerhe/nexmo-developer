@@ -97,9 +97,9 @@ Or you can use instance state, and the hash table operations to persist data bet
 router.post("/add-customer", async (req, res, next) => {
 	try {
 	  const instanceState = neru.getGlobalState();
-  
 	  const customer = req.body;
-	  await instanceState.hset("customers", [[customer.phone , customer]]);
+	  await instanceState.hset("customers", [[customer.phone.toString() , JSON.stringify(customer)]]);
+    res.sendStatus(200);
 	} catch (error) {
 	  next(error);
 	}
@@ -110,7 +110,6 @@ router.get("/on-phone-call", async (req, res, next) => {
 	  const instanceState = neru.getGlobalState();
 	  const number = req.query.number;
 	  const customer = await instanceState.hget("customers", number);
-	  console.log("customer", customer);
 	  res.send(customer.name);
 	} catch (error) {
 	  next(error);
